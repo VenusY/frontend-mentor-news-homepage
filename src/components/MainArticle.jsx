@@ -1,7 +1,16 @@
 export default function MainArticle() {
   return (
     <article className='main-article'>
-      <img src='' alt='' className='main-article__hero-image' />
+      <img
+        src={require('../assets/images/image-web-3-desktop.jpg')}
+        alt='Toy building blocks'
+        className='main-article__hero-image'
+      />
+      <img
+        src={require('../assets/images/image-web-3-mobile.jpg')}
+        alt='Toy building blocks'
+        className='main-article__hero-image'
+      />
 
       <section className='main-article__bottom-section'>
         <h1 className='main-article__heading'>The Bright Future of Web 3.0?</h1>
