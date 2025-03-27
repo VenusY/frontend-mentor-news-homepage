@@ -9,9 +9,13 @@ export default function OtherArticles() {
         />
 
         <section className='other-articles__text-section'>
-          <h2 className='other-articles__number'></h2>
-          <h3 className='other-articles__article-heading'></h3>
-          <p className='other-articles__description'></p>
+          <h2 className='other-articles__number'>01</h2>
+          <h3 className='other-articles__article-heading'>
+            Reviving Retro PCs
+          </h3>
+          <p className='other-articles__description'>
+            What happens when old PCs are given modern upgrades?
+          </p>
         </section>
       </article>
 
@@ -23,9 +27,13 @@ export default function OtherArticles() {
         />
 
         <section className='other-articles__text-section'>
-          <h2 className='other-articles__number'></h2>
-          <h3 className='other-articles__article-heading'></h3>
-          <p className='other-articles__description'></p>
+          <h2 className='other-articles__number'>02</h2>
+          <h3 className='other-articles__article-heading'>
+            Top 10 Laptops of 2022
+          </h3>
+          <p className='other-articles__description'>
+            Our best picks for various needs and budgets.
+          </p>
         </section>
       </article>
 
@@ -37,9 +45,13 @@ export default function OtherArticles() {
         />
 
         <section className='other-articles__text-section'>
-          <h2 className='other-articles__number'></h2>
-          <h3 className='other-articles__article-heading'></h3>
-          <p className='other-articles__description'></p>
+          <h2 className='other-articles__number'>03</h2>
+          <h3 className='other-articles__article-heading'>
+            The Growth of Gaming
+          </h3>
+          <p className='other-articles__description'>
+            How the pandemic has sparked fresh opportunities.
+          </p>
         </section>
       </article>
     </div>
