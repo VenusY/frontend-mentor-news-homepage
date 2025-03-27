@@ -1,9 +1,9 @@
 export default function MainArticle() {
   return (
-    <section className='main-article'>
+    <article className='main-article'>
       <img src='' alt='' className='main-article__hero-image' />
 
-      <div className='main-article__bottom-section'>
+      <section className='main-article__bottom-section'>
         <h1 className='main-article__heading'>The Bright Future of Web 3.0?</h1>
 
         <div className='main-article__container'>
@@ -14,7 +14,7 @@ export default function MainArticle() {
           </p>
           <button className='main-article__button'>Read More</button>
         </div>
-      </div>
-    </section>
+      </section>
+    </article>
   );
 }
