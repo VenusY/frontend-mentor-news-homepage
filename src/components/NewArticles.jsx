@@ -1,3 +1,5 @@
+import '../styles/scss/NewArticles.scss';
+
 export default function NewArticles() {
   return (
     <section className='new-articles'>

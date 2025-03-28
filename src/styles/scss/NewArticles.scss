@@ -1,0 +1,35 @@
+@use './util' as u;
+
+.new-articles {
+  padding: 25px 20px;
+  margin-bottom: u.rem(64);
+  background: var(--very-dark-blue);
+
+  &__main-heading {
+    margin-bottom: u.rem(32);
+    font-size: u.rem(32);
+    font-weight: 700;
+    color: var(--soft-orange);
+    line-height: 1;
+  }
+
+  &__article {
+    &:not(:last-child) {
+      padding-bottom: u.rem(30);
+      margin-bottom: u.rem(30);
+      border-bottom: 1px solid var(--dark-greyish-blue);
+    }
+  }
+
+  &__article-heading {
+    margin-bottom: u.rem(5);
+    font-size: u.rem(20);
+    font-weight: 700;
+    color: var(--off-white);
+  }
+
+  &__description {
+    color: var(--greyish-blue);
+    line-height: 1.7;
+  }
+}
