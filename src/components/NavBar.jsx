@@ -20,7 +20,7 @@ export default function NavBar() {
 
       <button
         className={`nav-bar__button  nav-bar__menu-button ${
-          menuOpen === true ? 'nav-bar__menu-button--hidden' : null
+          menuOpen === true ? 'nav-bar__menu-button--hidden' : ''
         }`}
         onClick={handleClick}
       >
@@ -32,7 +32,7 @@ export default function NavBar() {
 
       <button
         className={`nav-bar__button  nav-bar__close-button ${
-          menuOpen === true ? 'nav-bar__close-button--visible' : null
+          menuOpen === true ? 'nav-bar__close-button--visible' : ''
         }`}
         onClick={handleClick}
       >
@@ -42,7 +42,7 @@ export default function NavBar() {
         />
       </button>
 
-      <nav className={`pages ${menuOpen === true ? 'pages--visible' : null}`}>
+      <nav className={`pages ${menuOpen === true ? 'pages--visible' : ''}`}>
         <a href='#' className='pages__link'>
           Home
         </a>
@@ -61,7 +61,7 @@ export default function NavBar() {
       </nav>
       <div
         className={`pages__transparent-background ${
-          menuOpen === true ? 'pages__transparent-background--visible' : null
+          menuOpen === true ? 'pages__transparent-background--visible' : ''
         }`}
         onClick={handleClick}
       ></div>
