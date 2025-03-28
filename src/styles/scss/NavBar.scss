@@ -31,23 +31,23 @@
 
   &__menu-button {
     &--hidden {
-      display: none;
+      visibility: hidden;
     }
   }
 
   &__close-button {
-    display: none;
+    visibility: hidden;
     position: absolute;
     right: 20px;
 
     &--visible {
-      display: block;
+      visibility: visible;
     }
   }
 }
 
 .pages {
-  display: none;
+  visibility: hidden;
   position: fixed;
   top: 0;
   right: 0;
@@ -59,7 +59,7 @@
   background: white;
 
   &--visible {
-    display: block;
+    visibility: visible;
   }
 
   &__link {
@@ -74,7 +74,7 @@
 
   &__transparent-background {
     content: '';
-    display: none;
+    visibility: hidden;
     position: fixed;
     top: 0;
     right: 0;
@@ -83,7 +83,7 @@
     background: rgba(0, 0, 26, 0.5);
 
     &--visible {
-      display: block;
+      visibility: visible;
     }
   }
 }
