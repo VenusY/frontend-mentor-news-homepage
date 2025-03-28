@@ -42,4 +42,19 @@
 
 .pages {
   display: none;
+
+  &__transparent-background {
+    content: '';
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 26, 0.5);
+
+    &--visible {
+      display: block;
+    }
+  }
 }
