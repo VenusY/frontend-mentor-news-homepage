@@ -13,7 +13,9 @@ export default function OtherArticles() {
         <section className='other-articles__text-section'>
           <h2 className='other-articles__number'>01</h2>
           <h3 className='other-articles__article-heading'>
-            Reviving Retro PCs
+            <a href='#' className='other-articles__link'>
+              Reviving Retro PCs
+            </a>
           </h3>
           <p className='other-articles__description'>
             What happens when old PCs are given modern upgrades?
@@ -31,7 +33,9 @@ export default function OtherArticles() {
         <section className='other-articles__text-section'>
           <h2 className='other-articles__number'>02</h2>
           <h3 className='other-articles__article-heading'>
-            Top 10 Laptops of 2022
+            <a href='#' className='other-articles__link'>
+              Top 10 Laptops of 2022
+            </a>
           </h3>
           <p className='other-articles__description'>
             Our best picks for various needs and budgets.
@@ -49,7 +53,9 @@ export default function OtherArticles() {
         <section className='other-articles__text-section'>
           <h2 className='other-articles__number'>03</h2>
           <h3 className='other-articles__article-heading'>
-            The Growth of Gaming
+            <a href='#' className='other-articles__link'>
+              The Growth of Gaming
+            </a>
           </h3>
           <p className='other-articles__description'>
             How the pandemic has sparked fresh opportunities.
