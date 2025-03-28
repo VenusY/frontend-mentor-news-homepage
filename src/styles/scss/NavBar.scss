@@ -78,9 +78,15 @@
     font-size: u.rem(18);
     color: var(--very-dark-blue);
     text-decoration: none;
+    transition: color 100ms linear;
 
     &:not(:last-child) {
       margin-bottom: u.rem(20);
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--soft-red);
     }
   }
 
