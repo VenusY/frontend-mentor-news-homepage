@@ -1,7 +1,9 @@
 @use './util' as u;
 
 .new-articles {
+  max-width: 500px;
   padding: 25px 20px;
+  margin-inline: auto;
   margin-bottom: u.rem(64);
   background: var(--very-dark-blue);
 

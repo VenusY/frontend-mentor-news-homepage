@@ -1,6 +1,9 @@
 @use './util' as u;
 
 .main-article {
+  max-width: 500px;
+  margin-inline: auto;
+
   &__hero-image {
     margin-top: 88px;
 
