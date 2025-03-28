@@ -42,6 +42,7 @@ export default function NavBar() {
           Categories
         </a>
       </nav>
+      <div className='pages__transparent-background'></div>
     </header>
   );
 }
