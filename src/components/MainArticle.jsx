@@ -4,12 +4,12 @@ export default function MainArticle() {
       <img
         src={require('../assets/images/image-web-3-desktop.jpg')}
         alt='Toy building blocks'
-        className='main-article__hero-image'
+        className='main-article__hero-image main-article__hero-image--desktop'
       />
       <img
         src={require('../assets/images/image-web-3-mobile.jpg')}
         alt='Toy building blocks'
-        className='main-article__hero-image'
+        className='main-article__hero-image main-article__hero-image--mobile'
       />
 
       <section className='main-article__bottom-section'>
