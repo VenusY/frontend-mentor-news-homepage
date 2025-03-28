@@ -7,7 +7,9 @@ export default function NewArticles() {
 
       <article className='new-articles__article'>
         <h3 className='new-articles__article-heading'>
-          Hydrogen VS Electric Cars
+          <a href='#' className='new-articles__link'>
+            Hydrogen VS Electric Cars
+          </a>
         </h3>
         <p className='new-articles__description'>
           Will hydrogen-fueled cars ever catch up to EVs?
@@ -16,7 +18,9 @@ export default function NewArticles() {
 
       <article className='new-articles__article'>
         <h3 className='new-articles__article-heading'>
-          The Downsides of AI Artistry
+          <a href='#' className='new-articles__link'>
+            The Downsides of AI Artistry
+          </a>
         </h3>
         <p className='new-articles__description'>
           What are the possible adverse effects of on-demand AI image
@@ -26,7 +30,9 @@ export default function NewArticles() {
 
       <article className='new-articles__article'>
         <h3 className='new-articles__article-heading'>
-          Is VC Funding Drying Up?
+          <a href='#' className='new-articles__link'>
+            Is VC Funding Drying Up?
+          </a>
         </h3>
         <p className='new-articles__description'>
           Private funding by VC firms is down 50% YOY. We take a look at what
