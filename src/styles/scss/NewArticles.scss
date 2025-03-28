@@ -21,11 +21,19 @@
     }
   }
 
-  &__article-heading {
+  &__link {
+    width: fit-content;
     margin-bottom: u.rem(5);
     font-size: u.rem(20);
     font-weight: 700;
     color: var(--off-white);
+    text-decoration: none;
+    transition: color 100ms linear;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--soft-orange);
+    }
   }
 
   &__description {
