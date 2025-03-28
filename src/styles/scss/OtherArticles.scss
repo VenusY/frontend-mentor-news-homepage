@@ -20,7 +20,7 @@
   }
 
   &__number {
-    margin-bottom: u.rem(8);
+    margin-bottom: u.rem(10);
     font-size: u.rem(30);
     font-weight: 700;
     color: var(--soft-red);
@@ -28,10 +28,20 @@
   }
 
   &__article-heading {
-    margin-bottom: u.rem(8);
+    margin-bottom: u.rem(6);
+  }
+
+  &__link {
     font-size: u.rem(18);
     font-weight: 800;
     color: var(--very-dark-blue);
+    text-decoration: none;
+    transition: color 100ms linear;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--soft-red);
+    }
   }
 
   &__description {
