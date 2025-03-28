@@ -1,3 +1,5 @@
+import '../styles/scss/OtherArticles.scss';
+
 export default function OtherArticles() {
   return (
     <div className='other-articles'>

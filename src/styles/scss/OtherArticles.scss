@@ -1,0 +1,40 @@
+@use './util' as u;
+
+.other-articles {
+  &__article {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin-inline: auto;
+
+    &:not(:last-child) {
+      margin-bottom: u.rem(34);
+    }
+  }
+
+  &__image {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+  }
+
+  &__number {
+    margin-bottom: u.rem(8);
+    font-size: u.rem(30);
+    font-weight: 700;
+    color: var(--soft-red);
+    line-height: 1;
+  }
+
+  &__article-heading {
+    margin-bottom: u.rem(8);
+    font-size: u.rem(18);
+    font-weight: 800;
+    color: var(--very-dark-blue);
+  }
+
+  &__description {
+    line-height: 1.7;
+  }
+}
