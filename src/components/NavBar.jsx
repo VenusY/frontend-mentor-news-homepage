@@ -1,3 +1,5 @@
+import '../styles/scss/NavBar.scss';
+
 export default function NavBar() {
   return (
     <header className='nav-bar'>
