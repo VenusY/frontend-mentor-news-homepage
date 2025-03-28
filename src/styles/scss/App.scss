@@ -1,3 +1,5 @@
+@use './util' as u;
+
 @font-face {
   font-family: 'Inter';
   src: url('../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf')
@@ -15,6 +17,8 @@
 
 body {
   font-family: 'Inter';
+  font-size: u.rem(15);
+  color: var(--dark-greyish-blue);
 }
 
 .articles-section {
