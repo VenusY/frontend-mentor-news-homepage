@@ -63,6 +63,7 @@ export default function NavBar() {
         className={`pages__transparent-background ${
           menuOpen === true ? 'pages__transparent-background--visible' : null
         }`}
+        onClick={handleClick}
       ></div>
     </header>
   );
