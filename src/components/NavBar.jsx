@@ -11,14 +11,14 @@ export default function NavBar() {
         />
       </a>
 
-      <button className='nav-bar__menu-button'>
+      <button className='nav-bar__button  nav-bar__menu-button'>
         <img
           src={require('../assets/images/icon-menu.svg')}
           alt='Menu button'
         />
       </button>
 
-      <button className='nav-bar__close-button'>
+      <button className='nav-bar__button nav-bar__close-button'>
         <img
           src={require('../assets/images/icon-menu-close.svg')}
           alt='Close button'
