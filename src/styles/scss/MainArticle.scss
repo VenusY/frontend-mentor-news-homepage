@@ -1,0 +1,40 @@
+@use './util' as u;
+
+.main-article {
+  &__hero-image {
+    &--desktop {
+      display: none;
+    }
+
+    &--mobile {
+      width: 100%;
+      margin-bottom: u.rem(24);
+    }
+  }
+
+  &__heading {
+    margin-bottom: u.rem(15);
+    font-size: u.rem(42);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--very-dark-blue);
+  }
+
+  &__description {
+    margin-bottom: u.rem(24);
+    line-height: 1.7;
+  }
+
+  &__button {
+    padding: 16px 28px;
+    margin-bottom: u.rem(64);
+    border: 0;
+    background: var(--soft-red);
+    font-size: u.rem(14);
+    font-weight: 800;
+    color: var(--very-dark-blue);
+    text-transform: uppercase;
+    letter-spacing: u.rem(5);
+    line-height: 1.2;
+  }
+}

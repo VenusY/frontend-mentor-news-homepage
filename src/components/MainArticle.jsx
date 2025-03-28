@@ -1,3 +1,5 @@
+import '../styles/scss/MainArticle.scss';
+
 export default function MainArticle() {
   return (
     <article className='main-article'>
