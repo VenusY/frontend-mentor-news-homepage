@@ -18,6 +18,13 @@ export default function NavBar() {
         />
       </button>
 
+      <button className='nav-bar__close-button'>
+        <img
+          src={require('../assets/images/icon-menu-close.svg')}
+          alt='Close button'
+        />
+      </button>
+
       <nav className='pages'>
         <a href='#' className='pages__link'>
           Home
