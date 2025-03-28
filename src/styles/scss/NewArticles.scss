@@ -21,9 +21,12 @@
     }
   }
 
+  &__article-heading {
+    margin-bottom: u.rem(5);
+  }
+
   &__link {
     width: fit-content;
-    margin-bottom: u.rem(5);
     font-size: u.rem(20);
     font-weight: 700;
     color: var(--off-white);
