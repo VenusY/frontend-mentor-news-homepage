@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   padding: 28px 16px;
   margin-bottom: 4px;
 
@@ -15,11 +16,27 @@
     height: 100%;
   }
 
-  &__menu-button {
+  &__button {
     cursor: pointer;
     padding: 0;
     background: none;
     border: 0;
+  }
+
+  &__menu-button {
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__close-button {
+    display: none;
+    position: absolute;
+    right: 20px;
+
+    &--visible {
+      display: block;
+    }
   }
 }
 
