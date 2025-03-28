@@ -39,5 +39,14 @@
     text-transform: uppercase;
     letter-spacing: u.rem(5);
     line-height: 1.2;
+    transition-property: color, background;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--off-white);
+      background: var(--very-dark-blue);
+    }
   }
 }
