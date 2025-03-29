@@ -1,12 +1,13 @@
 @use './util' as u;
 
 .other-articles {
+  width: 100%;
+  max-width: 500px;
+  margin-inline: auto;
+
   &__article {
     display: flex;
     gap: 15px;
-    width: 100%;
-    max-width: 500px;
-    margin-inline: auto;
 
     &:not(:last-child) {
       margin-bottom: u.rem(34);
