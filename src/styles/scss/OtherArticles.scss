@@ -49,3 +49,24 @@
     line-height: 1.7;
   }
 }
+
+@media screen and (min-width: 1180px) {
+  .other-articles {
+    display: flex;
+    justify-content: space-between;
+    max-width: unset;
+    margin: 0;
+
+    &__article {
+      gap: 25px;
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+
+    &__text-section {
+      width: 225px;
+    }
+  }
+}
