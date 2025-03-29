@@ -30,4 +30,14 @@ body {
     max-width: 1110px;
     margin-inline: auto;
   }
+
+  .articles-section {
+    padding: 0 0 130px 0;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: u.rem(72);
+    }
+  }
 }

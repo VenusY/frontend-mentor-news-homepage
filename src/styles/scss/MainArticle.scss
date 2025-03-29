@@ -44,7 +44,7 @@
     line-height: 1.2;
     transition-property: color, background;
     transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: linear;
 
     &:hover,
     &:focus-visible {
@@ -58,6 +58,49 @@
   .main-article {
     &__hero-image {
       margin-top: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .main-article {
+    width: 730px;
+    max-width: unset;
+    margin: 0;
+
+    &__hero-image {
+      &--desktop {
+        display: block;
+        width: 100%;
+        margin-bottom: u.rem(30);
+      }
+
+      &--mobile {
+        display: none;
+      }
+    }
+
+    &__bottom-section {
+      display: flex;
+      gap: 30px;
+    }
+
+    &__heading {
+      width: 100%;
+      margin-bottom: 0;
+      font-size: u.rem(56);
+    }
+
+    &__container {
+      width: 100%;
+    }
+
+    &__description {
+      margin-bottom: u.rem(30);
+    }
+
+    &__button {
+      margin-bottom: 0;
     }
   }
 }
