@@ -11,8 +11,11 @@ export default function App() {
       <NavBar />
 
       <main className='articles-section'>
-        <MainArticle />
-        <NewArticles />
+        <div className='articles-section__container'>
+          <MainArticle />
+          <NewArticles />
+        </div>
+
         <OtherArticles />
       </main>
     </>
