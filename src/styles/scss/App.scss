@@ -24,3 +24,10 @@ body {
 .articles-section {
   padding: 0 16px 80px 16px;
 }
+
+@media screen and (min-width: 1180px) {
+  body {
+    max-width: 1110px;
+    margin-inline: auto;
+  }
+}
